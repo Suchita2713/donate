@@ -1,0 +1,242 @@
+#header{
+  margin-top: 0%;
+}
+body{
+  margin:0px;
+  }
+  #header
+  {
+    width:100%;
+    float:left;
+    text-align:center;
+    background-color:rgb(13, 70, 107);
+    border-radius: 4px;
+  }
+  #logo
+  {
+    width:30%;
+    float:left;
+  }
+  #logo h1
+  {
+    padding-top:20px;
+    cursor:pointer;
+    transition:1s;
+    color:white;
+    font-family: "Sofia";
+  }
+  #logo h1:hover
+  {
+    color:black;
+  }
+  
+  #menu
+  {
+    float:left;
+    width:70%;
+  }
+  #menu ul
+  {
+      margin-right: 10%;
+      padding: 0;
+      float:right;
+      text-align: center;
+  }
+  #menu ul li
+  {
+  cursor:pointer;
+  list-style-type:none;
+  display:inline-block;
+  padding:8px;
+  }
+  
+  #menu ul li a
+  {
+   cursor: pointer;
+  font-family: "Sofia";
+  text-decoration:none;
+  color:white;
+  font-size:20px;
+  }
+  #menu button{
+    padding:10px 30px;
+    border-radius:4px;
+    font-family:cambria;
+    font-size:large;
+    cursor: pointer;
+  }
+#menu ul li a:hover
+  {
+  color:black;
+  }
+  
+.btn {
+  border:none;
+  border-radius: 20;
+  color:black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size:30px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  position: absolute;
+  top:55%;
+  left:25%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color:grey;
+  color: white;
+  font-family: 'Salsa';
+
+}
+.btn:hover{
+  background-color:rgb(228, 139, 66);
+}
+img{
+    margin-top:10px;
+    border:2px solid black;
+    height:500px;
+    width:300x;;
+}
+.left{
+  padding-left:100px;
+  padding-bottom:420px;
+  position: absolute;
+  top:10%;
+  left: 16px;
+  color:white;
+  font-family: 'Sonsie One';
+}
+.right{
+  padding-left:100px;
+  padding-bottom:420px;
+  position: absolute;
+  top:25%;
+  left:15%;
+  color:white;
+  font-family: 'Sonsie One';
+}
+.para{
+  margin-top:20px;
+  margin-bottom:20px;
+  width:100%;
+  font-family: 'Song Myung';font-size: 30px;
+}
+
+   .divider-text {
+    position: relative;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.divider-text span {
+    padding: 7px;
+    font-size: 12px;
+    position: relative;   
+    z-index: 2;
+}
+.divider-text:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    top: 55%;
+    left: 0;
+    z-index: 1;
+}
+
+.login-page {
+  width: 360px;
+  padding: 8% 0 0;
+  margin: auto;
+}
+.form {
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.form input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.form button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #4CAF50;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+.form button:hover,.form button:active,.form button:focus {
+  background: #85be88;
+}
+.form .message {
+  margin: 15px 0 0;
+  color:black;
+  font-size: 12px;
+}
+.form .message a {
+  color:grey;
+  text-decoration: none;
+}
+.form .register-form {
+  display: none;
+}
+.container {
+  position: relative;
+  z-index: 1;
+  max-width: 300px;
+  margin: 0 auto;
+}
+.container:before, .container:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.container .info {
+  margin: 50px auto;
+  text-align: center;
+}
+.container .info h1 {
+  margin: 0 0 15px;
+  padding: 0;
+  font-size: 36px;
+  font-weight: 300;
+  color: #1a1a1a;
+}
+.container .info span {
+  color: #4d4d4d;
+  font-size: 12px;
+}
+
+
+   footer{
+  text-align:center;
+  padding:20px;
+  background-color: grey;
+  color:black;
+  font-family: "Sofia";
+  font-size:30px;
+  font-weight: bolder;
+}
